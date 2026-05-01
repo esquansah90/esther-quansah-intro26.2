@@ -1,53 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Head Section#################################-->
 <head>
    
     <title>Esther Quansah CTD Week5 Assignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
      <meta charset="UTF-8">
     <meta name="Week5 Assignment" content="HTML Basics">
     <meta name="author" content="Esther Quansah">
     <meta name="keywords" content="HTML, basics, assignment">
-     <style>
-  body {
-    background-color: greenyellow;
-  }
-  
-  h1 {
-    color: hotpink;
-  }
-
-  h2 {
-    color: darkgreen;
-  }
-</style>
+    
 
 </head>
 
-
 <body>
+
+<!--Navigation Section#######################-->
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Connect">Connect</a></li>
+        </ul>
+    </nav>
+
+<!--My Image and Header#################################-->
     <img src="images/myphoto.jpg" width="200" height="200" alt="my profile picture">
-   <h1>Esther Quansah</h1>
-   <section id="About">
-   <h2>About</h2>
-   <p>I was born in Italy to immigrant parents from Ghana, a country in West Africa. I am currently a sophomore at Purdue Global University, majoring in a bachelor's degree in Applied Computer Science. I am a mother of an energetic 6 year old girl. I currently work as a patient tech at a hospital. Though I love patient care, I'm excited to transition into the IT field, which I find very exciting.</p>
+
+    <header>
+        <h1>Esther Quansah</h1>
+    </header>
+
+<!--About Section#################################-->
+    <section id="About">
+        <h2>About</h2>
+            <p>I was born in Italy to immigrant parents from Ghana, a country in West Africa. I am currently a sophomore at Purdue Global University, majoring in a bachelor's degree in Applied Computer Science. I am a mother of an energetic 6 year old girl. I currently work as a patient tech at a hospital. Though I love patient care, I'm excited to transition into the IT field, which I find very exciting.</p>
     </section>
+
+<!--Experience Section#################################-->
     <section id="Experience">
-   <h2>Experience</h2>
-   <ul>
-       <li>Patient Tech at a hospital</li>
-       <li>Customer Service Representative at a retail store</li>
-         <li>Volunteer at elementary school</li>
-         <li>SQL</li>
-         <li>Sophomore in Computer Science degree</li>
-    </ul>   
+        <h2>Experience</h2>
+            <div class="Experience-container">
+                
+                    <div class = "Experience-item">
+                        <div class="Experience-header">
+                        <h3>Patient Care Tech/CNA</h3>
+                        <span class= "job dates">2020-present</span> 
+                        </div>
+                        <p class="job-description">As a patient tech, I assist nurses in providing care to patients. I take vital signs, help patients with activities of daily living, and ensure their comfort. I also assist with transporting patients and maintaining a clean and safe environment.</p>
+                    </div>
+                               
+                    <div class = "Experience-item">
+                        <div class="Experience-header">
+                        <h3>Customer Service Representative</h3>
+                        <span class= "job dates">2013-2020</span>
+                        </div>
+                        <p class="job-description">As a customer service representative, I assist customers with their inquiries and resolve any issues they may have. I also maintain a clean and organized sales floor, and ensure that all products are properly displayed.</p>
+                    </div>
+                
+                    <div class = "Experience-item">
+                        <div class="Experience-header">
+                        <h3>Volunteer at elementary school</h3>
+                        <span class= "job dates">2025-present</span> 
+                        </div>
+                        <p class="job-description">As a volunteer, I helped teachers with classroom activities and provided assistance to students who needed extra support. I also participated in school events and fundraisers.</p>
+                    </div>            
+                
+                    <div class = "Experience-item">
+                        <div class="Experience-header">
+                        <h3>Computer Science Student</h3>
+                        <span class= "job dates">2025-present</span>
+                        </div>
+                        <p class="job-description">As a computer science student, I am learning about programming languages, data structures, algorithms, and software development. I am also gaining experience with various tools and technologies used in the IT industry.</p>
+                    </div>
+
+               </div>    
+                 
     </section>
+
+<!--Skills Section#################################-->
+    <section id="Skills">
+        <h2>Skills</h2>
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+            <ul>    </ul>
+    </section>
+
+<!--Connect Section#################################-->
     <section id="Connect">
-    <h2>Connect</h2>
-    <ul>
-        <li><a href="https://github.com/esquansah90">GitHub</a></li>
-        <li><a href="https://www.facebook.com/share/18YkBEwYZp/?mibextid=wwXIfr">Facebook</a></li>
-    </ul>
+        <h2>Connect</h2>
+            <ul>
+                <div class="Connect-Container">
+                    <div class="Connect-item">   
+                    <li><a href="https://github.com/esquansah90"><img src="images/icons8-github-logo-50.png" alt="GitHub" width="30" height="30"></a></li>
+                    </div>
+                    <div class="Connect-item">
+                    <li><a href="https://www.facebook.com/share/18YkBEwYZp/?mibextid=wwXIfr"><img src="images/icons8-facebook-logo-50.png" alt="Facebook" width="30" height="30"></a></li>
+                    </div>
+                    <div class="Connect-item">
+                    <li><a href="https://www.linkedin.com"><img src="images/icons8-linkedin-50.png" alt="LinkedIn" width="30" height="30"></a></li>
+                    </div>
+                </div>
+            </ul>
     <!-- I do not have a LinkedIn account, but I will create one in the future. -->
     </section>
+
 </body>
+
 </html>
