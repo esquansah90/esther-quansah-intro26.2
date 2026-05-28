@@ -3,7 +3,7 @@
 
 <!--Head Section#################################-->
 <head>
-   
+
     <title>Esther Quansah CTD Week5 Assignment</title>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
@@ -11,7 +11,7 @@
     <meta name="Week5 Assignment" content="HTML Basics">
     <meta name="author" content="Esther Quansah">
     <meta name="keywords" content="HTML, basics, assignment">
-    
+
 
 </head>
 
@@ -25,6 +25,7 @@
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Connect">Connect</a></li>
+            <li><a href="#leaveMessage">Leave a Message</a></li>
         </ul>
     </nav>
 
@@ -45,7 +46,7 @@
     <section id="Experience">
         <h2>Experience</h2>
             <div class="Experience-container">
-                
+
                     <div class = "Experience-item">
                         <div class="Experience-header">
                         <h3>Patient Care Tech/CNA</h3>
@@ -53,7 +54,7 @@
                         </div>
                         <p class="job-description">As a patient tech, I assist nurses in providing care to patients. I take vital signs, help patients with activities of daily living, and ensure their comfort. I also assist with transporting patients and maintaining a clean and safe environment.</p>
                     </div>
-                               
+
                     <div class = "Experience-item">
                         <div class="Experience-header">
                         <h3>Customer Service Representative</h3>
@@ -61,7 +62,7 @@
                         </div>
                         <p class="job-description">As a customer service representative, I assist customers with their inquiries and resolve any issues they may have. I also maintain a clean and organized sales floor, and ensure that all products are properly displayed.</p>
                     </div>
-                
+
                     <div class = "Experience-item">
                         <div class="Experience-header">
                         <h3>Volunteer at elementary school</h3>
@@ -69,7 +70,7 @@
                         </div>
                         <p class="job-description">As a volunteer, I helped teachers with classroom activities and provided assistance to students who needed extra support. I also participated in school events and fundraisers.</p>
                     </div>            
-                
+
                     <div class = "Experience-item">
                         <div class="Experience-header">
                         <h3>Computer Science Student</h3>
@@ -79,7 +80,7 @@
                     </div>
 
                </div>    
-                 
+
     </section>
 
 <!--Skills Section#################################-->
@@ -104,12 +105,31 @@
                     <li><a href="https://www.facebook.com/share/18YkBEwYZp/?mibextid=wwXIfr"><img src="images/icons8-facebook-logo-50.png" alt="Facebook" width="30" height="30"></a></li>
                     </div>
                     <div class="Connect-item">
-                    <li><a href="https://www.linkedin.com"><img src="images/icons8-linkedin-50.png" alt="LinkedIn" width="30" height="30"></a></li>
+                    <li><a href="https://www.linkedin.com/in/esther-quansah-4281223bb"><img src="images/icons8-linkedin-50.png" alt="LinkedIn" width="30" height="30"></a></li>
                     </div>
                 </div>
             </ul>
-    <!-- I do not have a LinkedIn account, but I will create one in the future. -->
     </section>
+
+<!--Leave a Message Section#################################-->
+<section id = "leaveMessage">
+    <h2>Leave a Message</h2>
+    <form name="leave_message">
+        <label for="usersName">Name:</label><br>
+        <input type="text" name="usersName" required ><br>
+        <label for="usersEmail">Email:</label><br>
+        <input type="email" name="usersEmail" required><br>
+        <label for="usersMessage">Message:</label><br>
+        <textarea name="usersMessage" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!--Messages Section#################################-->
+<section id="messages">
+    <h2>Messages</h2>
+    <ul id="messagesList"></ul>
+</section>
 <script src="js/index.js"></script>
 </body>
 

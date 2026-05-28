@@ -9,7 +9,7 @@ img {
 }
 
 header{
-    
+
     background-color: #f5add9;
     color: rgb(204, 13, 102);
     text-align: center;
@@ -96,7 +96,7 @@ nav{
 
 .Experience-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -116,13 +116,35 @@ nav{
 }
 
 #Skills li {
-    position:relative;
-    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 #Skills li::before {
     content: "🌸";
-    position: absolute;
-    left: 200px;
-    top: 0;
+    
+}
+
+#leaveMessage {
+    background-color: #f5add9;
+    color: #b31584;
+    border-radius: 20px;
+    border: 2px solid #b31584;
+    padding: 20px; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leaveMessage input, #leaveMessage textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b31584;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
