@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: url("images/sky.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #03396c;
+}
+
+nav {
+  background-color: #03396c;
+  padding: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #012a4a;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.buttons button {
+  background-color: #005b96;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #03396c;
+  transform: scale(1.05);
+}
+
+#results {
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#results h2 {
+  color: #005b96;
+  border-bottom: 2px solid #80b6ff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
