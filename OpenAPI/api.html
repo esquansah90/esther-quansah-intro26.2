@@ -14,17 +14,29 @@
 
     <h1>Open-Meteo Weather Dashboard</h1>
 
+    <!-- Search Box -->
+    <div class="search">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter a city (e.g., Atlanta)"
+      />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Weather Buttons -->
     <div class="buttons">
       <button id="current">Current Weather</button>
       <button id="hourly">Hourly Weather</button>
       <button id="daily">Daily Weather</button>
     </div>
 
+    <!-- Weather Results -->
     <div id="results"></div>
+
+    <!-- Weather Icon -->
+    <div id="weatherIcon"></div>
 
     <script src="api.js"></script>
   </body>
 </html>
-
-<!-- Reference for background image -->
-<!--Baltana. (n.d.). Sky above clouds high definition wallpaper 09023 [Photograph]. Baltana. https://www.baltana.com/nature/sky-above-clouds-high-definition-wallpaper-09023.html-->
