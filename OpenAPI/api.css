@@ -1,0 +1,127 @@
+/* Global Page Styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #03396c;
+
+  /* Default background when site first loads */
+  background: url("images/sky.jpg") no-repeat center center fixed;
+
+  /* Different weather backgrounds depending on weather conditions */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.8s ease-in-out;
+}
+
+/* Navigation */
+nav {
+  background-color: #03396c;
+  padding: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page Title */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #012a4a;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+/* Search box*/
+.search {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #03396c;
+  font-size: 16px;
+}
+
+.search button {
+  padding: 10px 18px;
+  margin-left: 10px;
+  background-color: #005b96;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search button:hover {
+  background-color: #03396c;
+}
+
+/* Weather Buttons */
+.buttons {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.buttons button {
+  background-color: #005b96;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #03396c;
+  transform: scale(1.05);
+}
+
+/* Results */
+#results {
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#results h2 {
+  color: #005b96;
+  border-bottom: 2px solid #80b6ff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* loading and error text */
+.loading {
+  color: #005b96;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  color: #b30000;
+  font-weight: bold;
+  text-align: center;
+}

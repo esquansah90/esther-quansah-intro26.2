@@ -1,3 +1,10 @@
+/* Global Fixes */
+html {
+  scroll-padding-top: 250px;
+  scroll-behavior: smooth;
+}
+
+/* Profile Image */
 img {
   border-radius: 50%;
   border: 5px ridge rgb(236, 50, 127);
@@ -8,6 +15,7 @@ img {
   height: 400px;
 }
 
+/* Header */
 header {
   background-color: #f5add9;
   color: rgb(204, 13, 102);
@@ -18,6 +26,7 @@ header {
   margin-left: auto;
 }
 
+/* Section Headers */
 h2 {
   background-color: #f5d8e8;
   color: #b31584;
@@ -26,6 +35,7 @@ h2 {
   margin-right: auto;
 }
 
+/* Body Style */
 body {
   background-color: #f5d8e8;
   color: #b31584;
@@ -35,6 +45,7 @@ body {
   width: 100%;
 }
 
+/* Paragraphs */
 p {
   font-size: 20px;
   line-height: 1.5;
@@ -43,6 +54,7 @@ p {
   width: 90%;
 }
 
+/* List Items */
 li {
   font-size: 18px;
   line-height: 1.5;
@@ -51,6 +63,7 @@ li {
   width: 50%;
 }
 
+/* Experience Section */
 .Experience-item {
   background-color: #f5add9;
   color: #b31584;
@@ -68,6 +81,13 @@ li {
   align-items: center;
 }
 
+.Experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Connect Section */
 #Connect img {
   width: 100px;
   height: 100px;
@@ -81,6 +101,13 @@ li {
   padding: 0;
 }
 
+.Connect-Container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Navigation Bar */
 nav {
   position: sticky;
   top: 0;
@@ -93,22 +120,12 @@ nav {
   padding: 0;
 }
 
-.Experience-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.Connect-Container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
+/* Skills Section */
 #Skills {
   text-align: center;
   padding: 20px;
 }
+
 #Skills ul {
   list-style-type: none;
   padding: 0;
@@ -127,6 +144,7 @@ nav {
   content: "🌸";
 }
 
+/* Leave a Message Section */
 #leaveMessage {
   background-color: #f5add9;
   color: #b31584;
@@ -148,6 +166,7 @@ nav {
   box-sizing: border-box;
 }
 
+/* Projects Section */
 #Projects ul {
   list-style-type: none;
   padding: 0;
